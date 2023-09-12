@@ -1,0 +1,60 @@
+body {
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+}
+
+.main-div {
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #f5f5f5;
+}
+
+img {
+  max-width: 300px;
+  margin-top: 10px;
+}
+
+.old-div {
+  margin-top: 20px;
+  background-color: #e0e0e0;
+  padding: 10px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+ul {
+  margin-top: 15px;
+}
+
+#dropzone {
+  border: 2px dashed #ccc;
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px; 
+}
+
+#draggable  {
+  width: 100px;
+  height: 100px;
+  background-color: #ffcc00;
+  color: #ffffff;
+  padding: 10px;
+  cursor: move;
+}

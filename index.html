@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manejo del DOM en JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <!-- Seleccionar Elementos -->
+    <h1 id="title">ManipulanDOM</h1>
+    <!-- Modificar y Eliminar Elementos -->
+    <div class="main-div">
+        Imagen de ejemplo: <br>
+        <img src="vite.svg" alt="Imagen original">
+    </div>
+    <div class="old-div">
+        Este div será eliminado en el demo.
+    </div>
+    <!-- Eventos -->
+    <button>Presiona aquí</button>
+
+    <!-- Crear una lista dinámica -->
+    <div>
+        <input type="text" id="itemInput" placeholder="Añade un ítem a la lista">
+        <button id="addButton">Añadir</button>
+        <ul id="dynamicList"></ul>
+    </div>
+
+    <!-- Filtrado de elementos -->
+    <input type="text" id="filterInput" placeholder="Filtrar ítems...">
+    <ul id="itemsList">
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>Ruby</li>
+        <li>Java</li>
+        <li>PHP</li>
+    </ul>
+
+    <!-- Drag and Drop de elementos -->
+    <div id="draggable" draggable="true">Arrástrame</div>
+    <div id="dropzone">Zona para soltar</div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
+
