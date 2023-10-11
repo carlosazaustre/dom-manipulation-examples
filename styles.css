@@ -58,3 +58,11 @@ ul {
   padding: 10px;
   cursor: move;
 }
+.foot{
+  background-color: greenyellow;
+  margin-top: 15px;
+  padding-left: 50%;
+  padding-top: .5rem;
+  border-radius: 25px;
+  color: #007bff;
+}
